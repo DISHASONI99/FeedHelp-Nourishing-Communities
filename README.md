@@ -1,11 +1,11 @@
-# 🤝😊 FeedHelp - Nourishing-Communities
+# 🤝😊 FeedHope - Nourishing-Communities
 
-_Empowering Growth, Nourishing Success – FeedHelp, Your Path to Progress!_
+_Empowering Growth, Nourishing Success – FeedHope, Your Path to Progress!_
 
-FeedHelp is a revolutionary application designed with a mission to raise social awareness and extend a helping hand to those in need. 
+FeedHope is a revolutionary application designed with a mission to raise social awareness and extend a helping hand to those in need. 
 
 
-## 📃 What does FeedHelp App does?
+## 📃 What does FeedHope App does?
 This app serves as a platform to bridge the gap between surplus resources and the less fortunate, creating a feeling of togetherness and kindness in the community. Its primary focus is on the redistribution of excess food and the facilitation of donations such as clothes, books, and medicines. Its allows people to volunteer in our social cause by directly involving in our movement.  
 
 ## 🎯 Goals and Problems Solved:
