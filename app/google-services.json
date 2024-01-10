@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374095976550",
+    "project_id": "feedhope-57dba",
+    "storage_bucket": "feedhope-57dba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374095976550:android:858ab91b16b09a105ef5a7",
+        "android_client_info": {
+          "package_name": "com.example.a01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHAB4Zf2xMy_5oLACRRpXJw0CRns8wC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
