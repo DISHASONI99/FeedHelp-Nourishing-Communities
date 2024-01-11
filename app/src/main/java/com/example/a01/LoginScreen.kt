@@ -6,11 +6,15 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate
 
 class LoginScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login_screen)
+
+        supportActionBar?.hide()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         val login = findViewById<Button>(R.id.login)
         login.setOnClickListener {
@@ -26,7 +30,6 @@ class LoginScreen : AppCompatActivity() {
         val forgotPassword = findViewById<TextView>(R.id.fpwd)
         forgotPassword.setOnClickListener {
             startActivity(Intent(this,ForgotPassword::class.java))
-            finish()
         }
 
     }
