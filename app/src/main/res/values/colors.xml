@@ -6,4 +6,8 @@
     <color name="purple">#FF935197</color>
     <color name="blue">#305DE1</color>
     <color name="golden">#FB8C00</color>
+    <color name="violet">#6C63FF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
 </resources>

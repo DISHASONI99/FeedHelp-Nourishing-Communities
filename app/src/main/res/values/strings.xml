@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FeedHope</string>
     <string name="or">--------------------------------  Or  --------------------------------</string>
+    <string name="splash">When we give cheerfully and accept gratefully, everyone is blessed</string>
+    <string name="default_web_client_id">374095976550-j24ue0klj5b9i0onrerogl281cumbs7v.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

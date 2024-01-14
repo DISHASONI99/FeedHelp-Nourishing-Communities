@@ -46,11 +46,13 @@
                 android:textColor="#C84B295C" />
 
             <EditText
-                android:id="@+id/email"
+                android:id="@+id/logemail"
                 android:layout_width="320dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="30dp"
                 android:hint="Email ID"
+                android:inputType="textEmailAddress"
+                android:maxHeight="55dp"
                 android:paddingLeft="12dp"
                 android:layout_gravity="center"
                 android:paddingStart="15dp"
@@ -59,16 +61,18 @@
                 android:background="@drawable/edit_bg"/>
 
             <EditText
-                android:id="@+id/pwd"
+                android:id="@+id/log_pwd"
                 android:layout_width="320dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="15dp"
                 android:hint="Password"
+                android:maxHeight="55dp"
                 android:paddingLeft="12dp"
+                android:inputType="textPassword"
                 android:layout_gravity="center"
                 android:paddingStart="15dp"
                 android:paddingRight="10dp"
-                android:drawableRight="@drawable/baseline_mail_outline_24"
+                android:drawableRight="@drawable/key"
                 android:background="@drawable/edit_bg"/>
 
             <TextView
@@ -82,11 +86,11 @@
                 android:layout_marginRight="45dp"
                 android:layout_marginTop="12dp" />
             <Button
-                android:id="@+id/login"
+                android:id="@+id/login_btn"
                 android:layout_width="320dp"
                 android:layout_height="55dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="80dp"
                 android:background="@drawable/edit_bg"
                 android:textSize="18sp"
                 android:text="LOGIN" />
@@ -125,7 +129,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="14sp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="@string/or" />
 
         <LinearLayout
@@ -137,7 +141,7 @@
                 android:layout_width="320dp"
                 android:layout_height="45dp"
                 android:background="@drawable/sign_in_bg"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginBottom="50dp"
                 android:orientation="horizontal"
                 android:gravity="center">

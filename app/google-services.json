@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "374095976550",
+    "firebase_url": "https://feedhope-57dba-default-rtdb.firebaseio.com",
     "project_id": "feedhope-57dba",
     "storage_bucket": "feedhope-57dba.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.a01"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "374095976550-t1vmnbrbcaibk65mh6amo7nv5p3sprnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a01",
+            "certificate_hash": "344e1ccae32e4a04b79b80122b776adce066bff6"
+          }
+        },
+        {
+          "client_id": "374095976550-j24ue0klj5b9i0onrerogl281cumbs7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDvHAB4Zf2xMy_5oLACRRpXJw0CRns8wC4"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374095976550-j24ue0klj5b9i0onrerogl281cumbs7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

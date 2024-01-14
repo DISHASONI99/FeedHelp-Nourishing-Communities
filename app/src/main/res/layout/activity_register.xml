@@ -112,7 +112,7 @@
                 android:layout_height="55dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="67dp"
-                android:text="CREATE"
+                android:text="REGISTER"
                 android:textSize="18sp"
                 android:background="@drawable/button_back" />
 
@@ -131,6 +131,7 @@
                     android:textSize="15dp"
                     android:text="Do you have an account ? "
                     android:textAlignment="center" />
+
                 <TextView
                     android:id="@+id/login"
                     android:layout_width="wrap_content"
@@ -151,7 +152,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="14sp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="@string/or" />
 
         <LinearLayout
@@ -163,7 +164,7 @@
                 android:layout_width="320dp"
                 android:layout_height="45dp"
                 android:background="@drawable/sign_in_bg"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginBottom="50dp"
                 android:orientation="horizontal"
                 android:gravity="center">
