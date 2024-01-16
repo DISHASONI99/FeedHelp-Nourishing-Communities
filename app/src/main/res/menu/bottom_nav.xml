@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        tools:ignore="HardcodedText" />
+
+    <item android:title="Donate"
+        android:id="@+id/donate"
+        android:icon="@drawable/donate"
+        tools:ignore="HardcodedText" />
+
+    <item android:title="Community"
+        android:id="@+id/community"
+        android:icon="@drawable/community"
+        tools:ignore="HardcodedText" />
+
+    <item android:title="Volunteer"
+        android:id="@+id/volunteer"
+        android:icon="@drawable/volunteer"
+        tools:ignore="HardcodedText" />
+
+    <item android:title="Map"
+        android:id="@+id/map"
+        android:icon="@drawable/map"
+        tools:ignore="HardcodedText" />
+
+</menu>
