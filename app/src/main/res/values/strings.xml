@@ -21,4 +21,10 @@
     <string name="general">General</string>
     <string name="about_app">About App</string>
     <string name="log_out">Log out</string>
+
+    <string name="nameString">Name <font color="#FF0000"><b>*</b></font></string>
+    <string name="emailString">Email <font color="#FF0000"><b>*</b></font></string>
+    <string name="msgString">Message<font color="#FF0000"><b>*</b></font></string>
+
+
 </resources>

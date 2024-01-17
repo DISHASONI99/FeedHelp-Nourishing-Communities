@@ -5,10 +5,81 @@
     android:layout_height="match_parent"
     tools:context=".fragments.Donate">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="#E1EBF4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donate"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/next_btn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Together we can make a difference. Donate to us \n                           and be the change."
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/next_btn"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/donation"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/white_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make the world \nbetter place today!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your support amplifies our impact. Join us in our mission to bring about positive change, one donation at a time. Together, we can sow the seeds of progress and create a legacy of kindness. Donate and be a part of our journey towards a better tomorrow."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="350dp"
+                android:layout_marginVertical= "50dp"
+                android:layout_height="70dp"
+                android:text="Donate now"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_marginBottom="60dp"
+                android:backgroundTint="@color/next_btn"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>

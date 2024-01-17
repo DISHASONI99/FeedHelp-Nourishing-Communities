@@ -17,9 +17,9 @@
         android:icon="@drawable/community"
         tools:ignore="HardcodedText" />
 
-    <item android:title="Volunteer"
-        android:id="@+id/volunteer"
-        android:icon="@drawable/volunteer"
+    <item android:title="Explore"
+        android:id="@+id/explore"
+        android:icon="@drawable/explore"
         tools:ignore="HardcodedText" />
 
     <item android:title="Map"

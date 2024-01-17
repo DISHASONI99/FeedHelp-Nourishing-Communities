@@ -4,7 +4,6 @@ import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.Profile
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
@@ -18,9 +17,9 @@ import androidx.fragment.app.Fragment
 import com.example.a01.databinding.ActivityMainBinding
 import com.example.a01.fragments.Community
 import com.example.a01.fragments.Donate
+import com.example.a01.fragments.Explore
 import com.example.a01.fragments.Home
 import com.example.a01.fragments.MapActivity
-import com.example.a01.fragments.Volunteer
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -152,6 +151,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.volunteer.setOnClickListener {
+            val intent = Intent(this@MainActivity, Volunteer::class.java)
+            startActivity(intent)
+        }
+
         mAuth = FirebaseAuth.getInstance()
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
@@ -165,7 +169,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.home -> replaceFragment(Home())
                 R.id.donate -> replaceFragment(Donate())
                 R.id.community -> replaceFragment(Community())
-                R.id.volunteer -> replaceFragment(Volunteer())
+                R.id.explore -> replaceFragment(Explore())
                 R.id.map -> replaceFragment(MapActivity())
                 else -> {}
             }
