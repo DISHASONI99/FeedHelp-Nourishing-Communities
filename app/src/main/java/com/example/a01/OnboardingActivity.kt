@@ -13,6 +13,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.a01.fragments.onboarding1
 import com.example.a01.fragments.onboarding2
 import com.example.a01.fragments.onboarding3
+import com.example.a01.fragments.onboarding4
 
 class OnboardingActivity : AppCompatActivity() {
 
@@ -26,7 +27,8 @@ class OnboardingActivity : AppCompatActivity() {
         val fragmentList = arrayListOf(
             onboarding1(),
             onboarding2(),
-            onboarding3()
+            onboarding3(),
+            onboarding4()
         )
 
         val adapter = ViewPagerAdapter(

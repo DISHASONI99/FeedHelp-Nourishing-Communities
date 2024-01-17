@@ -48,11 +48,11 @@
         android:id="@+id/imageView4"
         android:layout_width="140sp"
         android:layout_height="140sp"
-        android:layout_marginTop="35dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
         android:layout_marginBottom="15dp"
         app:shapeAppearanceOverlay="@style/circular_image_view"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/disha_rounded" />
 
     <TextView
         android:id="@+id/textView2"
@@ -74,7 +74,7 @@
         android:layout_gravity="center"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/location_profile"
-        android:text="AndhraPradesh India"
+        android:text="MadhyaPradesh India"
         android:textColor="@color/gray_600"
         app:cornerRadius="10dp" />
 
